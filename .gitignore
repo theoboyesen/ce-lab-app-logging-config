@@ -1,0 +1,30 @@
+# Terraform state files
+
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file (optional but commonly ignored in labs)
+
+.terraform.lock.hcl
+
+# Terraform working directory
+
+.terraform/
+
+# Variable files that may contain secrets
+
+*.tfvars
+*.tfvars.json
+
+# SSH keys
+
+*.pem
+
+# Crash logs
+
+crash.log
+
+# macOS / Windows system files
+
+.DS_Store
+Thumbs.db
