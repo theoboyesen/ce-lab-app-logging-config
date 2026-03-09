@@ -259,4 +259,4 @@ This lab successfully implemented centralized logging and observability for an E
 
 The setup enables efficient monitoring, debugging, and analysis of application behavior in a production-style environment.
 
-# Submission
+# Submission 2
