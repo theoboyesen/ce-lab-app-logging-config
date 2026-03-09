@@ -1,0 +1,13 @@
+CloudWatch Log Retention Policy
+
+Log Group:
+/aws/application/api
+
+Retention Period:
+30 days
+
+Command used to configure retention:
+
+aws logs put-retention-policy \
+--log-group-name /aws/application/api \
+--retention-in-days 30

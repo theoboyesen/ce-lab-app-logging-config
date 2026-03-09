@@ -1,0 +1,39 @@
+{
+    "status": "healthy",
+    "event": "health_check",
+    "timestamp": "2026-03-09T14:42:30.511585Z",
+    "level": "info"
+}
+
+{
+    "correlation_id": "b3d04e0a-1698-40a3-92ba-d66f9b9e7b56",
+    "order_id": "ord-6b1b44ba",
+    "amount": 99.99,
+    "items": 3,
+    "user_id": "user-123",
+    "event": "order_created",
+    "timestamp": "2026-03-09T14:46:37.895152Z",
+    "level": "info"
+}
+
+{
+    "correlation_id": "370cfd26-a3e5-4411-add3-78904b614d4c",
+    "order_id": "ord-c96ac083",
+    "amount": 99.99,
+    "items": 3,
+    "user_id": "user-123",
+    "event": "order_created",
+    "timestamp": "2026-03-09T14:46:37.976779Z",
+    "level": "info"
+}
+
+{
+    "correlation_id": "851c2029-94a5-47fc-8c2f-6c084902368f",
+    "order_id": "ord-8b21fd10",
+    "amount": 99.99,
+    "items": 3,
+    "user_id": "user-123",
+    "event": "order_created",
+    "timestamp": "2026-03-09T14:46:38.047202Z",
+    "level": "info"
+}

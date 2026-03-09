@@ -1,0 +1,35 @@
+CloudWatch Logs Insights Queries
+
+1. Show recent logs
+
+fields @timestamp, @message
+| sort @timestamp desc
+| limit 20
+
+
+2. Find order_created events
+
+fields @timestamp, event, amount, user_id
+| filter event = "order_created"
+| sort @timestamp desc
+
+
+3. Count events by type
+
+fields event
+| stats count() by event
+| sort count() desc
+
+
+4. Calculate average order amount
+
+fields amount
+| filter event = "order_created"
+| stats avg(amount) as avg_order, count() as total_orders
+
+
+5. Track requests by correlation ID
+
+fields @timestamp, event
+| filter correlation_id = "example-id"
+| sort @timestamp asc
